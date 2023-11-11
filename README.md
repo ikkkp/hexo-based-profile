@@ -2,7 +2,7 @@
 
 ## Overview
 
-[ikkkp.github.io](./example.jpg)
+![ikkkp.github.io](./example.jpg)
 
 Visit my blog: [ikkkp.github.io](ikkkp.github.io)
 
