@@ -2,11 +2,11 @@
 
 ## Overview
 
-![ikkkp.github.io](./example.jpg)
-
 Visit my blog: [ikkkp.github.io](ikkkp.github.io)
 
 This repository contains the source code for my personal blog, built using Hexo. Below are the key commands for development, deployment, and additional tools.
+
+![ikkkp.github.io](./example.jpg)
 
 based on:[huli](https://github.com/aszx87410) 
 
