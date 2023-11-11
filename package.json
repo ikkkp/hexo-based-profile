@@ -1,0 +1,38 @@
+{
+  "name": "hexo-site",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "og-image": "node apps/og-image-generator/app.js",
+    "translate": "node apps/translator/index.js",
+    "dev": "hexo s",
+    "build": "hexo g && node apps/rss-lang/index.js",
+    "deploy": "hexo d"
+  },
+  "hexo": {
+    "version": "6.3.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "fast-xml-parser": "^4.2.7",
+    "front-matter": "^4.0.2",
+    "hexo": "^6.3.0",
+    "hexo-deployer-git": "^4.0.0",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
+    "hexo-generator-feed": "^3.0.0",
+    "hexo-generator-index": "^3.0.0",
+    "hexo-generator-seo-friendly-sitemap": "0.2.1",
+    "hexo-generator-tag": "^2.0.0",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-markdown-it": "^7.1.0",
+    "hexo-renderer-marked": "^6.1.0",
+    "hexo-renderer-stylus": "^3.0.0",
+    "hexo-server": "^3.0.0",
+    "hexo-toc": "^1.1.0",
+    "markdown-it-named-headings": "^1.1.0",
+    "node-fetch": "^3.3.1",
+    "puppeteer": "^20.7.2"
+  }
+}
